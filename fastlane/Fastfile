@@ -1,0 +1,12 @@
+fastlane_version "2.217.0"
+
+default_platform(:android)
+
+platform :android do
+  desc "Build and run tests for Android"
+  lane :test_build do
+    gradle(task: "testDebugUnitTest")
+    gradle(task: "connectedDebugAndroidTest")
+    gradle(task: "assembleDebug")
+  end
+end

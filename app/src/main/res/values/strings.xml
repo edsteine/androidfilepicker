@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Android File Picker</string>
+    <string name="file_provider_name">.myFileProvider</string>
+    <string name="home">Home</string>
+    <string name="selected_files">Selected</string>
+    <string name="file_image">File Image</string>
+    <string name="file_icon">File Icon</string>
+    <string name="camera">Camera</string>
+    <string name="image">Image</string>
+    <string name="video">Video</string>
+    <string name="audio">Audio</string>
+    <string name="document">Document</string>
+    <string name="text">Text</string>
+    <string name="file_copy_error">Error copying file: %1$s</string>
+</resources>

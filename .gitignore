@@ -1,0 +1,45 @@
+*.iml
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+.kotlin/errors
+.kotlin/sessions
+app/debug
+app/release
+app/.gradle
+key
+
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+pubspec.lock
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+google-services.json
+GoogleService-Info.plist
+secrets.properties
+*.jks
+*.keystore
+
+# Coverage and test output
+coverage/
+*.lcov
+
+# Nested Android, Flutter, Gradle and code-generation output
+**/build/
+**/build/generated/
+**/.gradle/
+
+# Fastlane generated reports
+fastlane/report.xml
